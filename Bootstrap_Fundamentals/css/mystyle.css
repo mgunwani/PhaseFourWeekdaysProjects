@@ -1,0 +1,12 @@
+h2{
+    color:navy;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+
+p{
+    color:brown;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    line-height: 1.5em;
+}

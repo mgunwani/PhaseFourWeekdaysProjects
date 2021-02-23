@@ -1,0 +1,53 @@
+JavaScript: 
+
+    - A loosely typed client side scripting language.
+    - JavaScript executes in the user's web browser.
+
+NodeJS:
+
+    - A Server Side JavaScript Framework
+    - provides runtime environment to JavaScript.
+
+---------------------------------
+
+Data Types in JavaScript
+1. Primitive Data Types
+    a. String
+    b. Number
+    c. Boolean
+    d. Null
+    e. Undefined
+
+2. Non-Primitive Data Types
+    1. Object
+    2. Date
+    3. Array
+
+----------------------------------
+
+Functions:
+
+    - Helps in Modular programming.
+    - Helps to define the block of code.
+
+Types of Function:
+    - Simple Function
+    - Parameterized Function
+    - Function with Return Statement
+    - Function Expression
+    - Annonymous Function
+    - Nested Function
+
+----------------------------------
+
+JavaScript Objects:
+
+    Object include properties and Methods.
+    Each property and method can either be assigned a literal value or a function.
+
+Two ways to define Objects:
+
+    1. Object literal
+    2. Object Constructor
+
+-----------------------------------
