@@ -1,0 +1,85 @@
+
+Angular: 
+
+	- A component based framework.
+	- A client-side JavaScript Framework.
+	- works in MVC Architecture.
+	- Helps in Data Binding. (Specially two-way data binding)
+	- Helps in creating Single Page Application.
+	- Consuming RestAPI using Dependency Injection.
+	
+Angular CLI: Command Line Interface
+
+	npm install @angular/cli --global
+	
+	ng --version
+	
+----------------------------------------------------
+
+Creating First Angular Project:
+
+	Go to Working Directory:
+	
+	E:\PhaseFour_JavaFSD_Projects>
+	
+	E:\PhaseFour_JavaFSD_Projects>ng new angular-proj
+	
+	E:\PhaseFour_JavaFSD_Projects>cd angular-proj
+	
+	E:\PhaseFour_JavaFSD_Projects\angular-proj>npm install --only=dev
+	
+	E:\PhaseFour_JavaFSD_Projects>ng serve
+	
+-----------------------------------------------------
+	
+	
+	ng new project-name
+	
+	cd project-name
+	
+	ng serve
+	
+-----------------------------------------------------
+
+	npm install
+	
+	npm install --only=dev
+	
+	npm update
+
+----------------------------------------------------
+
+	ng serve:
+	
+	1. Look for angular.json and index property in it.
+	2. Look for app-root element in index.html
+	3. Go back to angular.json and check main property in it.
+	4. Look for bootstrap module i.e. app.module.ts in main.ts
+	5. GO back to app.module.ts and Look for bootstrap Array
+	6. Go to the root component i.e. AppComponent and check the selector
+	7. Make sure element in index.html and selector in root component is same.
+	
+------------------------------------------------------
+
+Data Binding: Binds the data from Model/Component to VIew and vice-versa.
+
+	1. Interpolation Binding
+	2. One Way Data Binding (Model/Component to View) - Property Binding
+	3. One Way Data Binding (View to Model/Component) - Event Binding
+	4. Two Way Data Binding (Model/Component to View to Model/Component)
+	
+------------------------------------------------------
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
