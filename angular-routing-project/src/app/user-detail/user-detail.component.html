@@ -1,0 +1,16 @@
+<div class="card" style="width: 65rem;text-align: center;">
+    <div class="card-header">
+        Details of <b>{{this.user.name}}</b>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Name: {{this.user.name}}</li>
+        <li class="list-group-item">Email: {{this.user.email}}</li>
+        <li class="list-group-item">Website: {{this.user.website}}</li>
+        <li class="list-group-item">Phone: {{this.user.phone}}</li>
+    </ul>
+    <div class="card-footer">
+        <a href="#" class="btn btn-secondary" routerLink='/users'>Back to List</a> |
+        <button (click)=deleteUser(this.user.id) class="btn btn-secondary">Delete User</button> |
+        <a href="#" class="btn btn-secondary">Edit User</a>
+    </div>
+</div>

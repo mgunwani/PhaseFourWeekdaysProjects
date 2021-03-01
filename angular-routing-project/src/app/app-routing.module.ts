@@ -1,3 +1,4 @@
+import { UserDetailComponent } from './user-detail/user-detail.component';
 import { CustomerComponent } from './customer/customer.component';
 import { UserComponent } from './user/user.component';
 import { EmployeeServiceComponent } from './employee-service/employee-service.component';
@@ -16,6 +17,7 @@ export const applicationRoute: Routes = [
     { path: 'about', component: AboutComponent },
     { path: 'contact', component: ContactComponent },
     { path: 'users', component: UserComponent },
+    { path: 'user-detail/:id', component: UserDetailComponent },
     { path: 'customers', component: CustomerComponent },
     {
         path: 'service', component: ServiceComponent, children: [

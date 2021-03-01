@@ -2,6 +2,7 @@ import { applicationRoute } from './app-routing.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from "@angular/router";
+import { HttpClientModule } from "@angular/common/http";
 
 import { MainComponent } from './main/main.component';
 import { HomeComponent } from './home/home.component';
@@ -13,6 +14,7 @@ import { CustomerServiceComponent } from './customer-service/customer-service.co
 import { EmployeeServiceComponent } from './employee-service/employee-service.component';
 import { CustomerComponent } from './customer/customer.component';
 import { UserComponent } from './user/user.component';
+import { UserDetailComponent } from './user-detail/user-detail.component';
 
 @NgModule({
   declarations: [
@@ -25,11 +27,13 @@ import { UserComponent } from './user/user.component';
     CustomerServiceComponent,
     EmployeeServiceComponent,
     CustomerComponent,
-    UserComponent
+    UserComponent,
+    UserDetailComponent
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(applicationRoute)
+    RouterModule.forRoot(applicationRoute),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [MainComponent]
